@@ -1,13 +1,33 @@
+- model: shop.customer
+  pk: 1
+  fields:
+    name: "Алексей Смирнов"
+    email: "alex@example.com"
+    phone: "+79161234567"
+    total_purchases: 2
+    total_spent: 3000
+
+- model: shop.customer
+  pk: 2
+  fields:
+    name: "Мария Петрова"
+    email: "maria@example.com"
+    phone: "+79167654321"
+    total_purchases: 7
+    total_spent: 12000
+
 - model: shop.product
   pk: 1
   fields:
     name: Стол
     price: 2000
+
 - model: shop.product
   pk: 2
   fields:
     name: Стул
     price: 1000
+
 - model: shop.product
   pk: 3
   fields:

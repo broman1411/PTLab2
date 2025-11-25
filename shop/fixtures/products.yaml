@@ -16,6 +16,15 @@
     total_purchases: 7
     total_spent: 12000
 
+- model: shop.customer
+  pk: 3
+  fields:
+    name: "Сергей Иванов"
+    email: "sergey@example.com"
+    phone: "+79165554433"
+    total_purchases: 12
+    total_spent: 25000
+
 - model: shop.product
   pk: 1
   fields:
